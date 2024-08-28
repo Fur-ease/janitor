@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1037</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Dialog{
+background-color:rgb(254, 246, 221);
+border-image:url();
+}
+
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>170</y>
+     <width>221</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 32pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(1, 2, 44);</string>
+   </property>
+   <property name="text">
+    <string>Log In As</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAdmin">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>290</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*background:rgb(1, 2, 44);*/
+#btnAdmin{
+font: 75 26pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(1, 2, 44);
+border:2px solid rgb(1,2,44);
+border-radius:10px;
+}
+#btnAdmin:hover{
+background:rgb(1,2,44);
+border:0px;
+color:#fff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Admin</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSupervisor">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>370</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*background:rgb(1, 2, 44);*/
+#btnSupervisor{
+font: 75 26pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(1, 2, 44);
+border:2px solid rgb(1,2,44);
+border-radius:10px;
+}
+#btnSupervisor:hover{
+background:rgb(1,2,44);
+border:0px;
+color:#fff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Supervisor</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnJanitor">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>450</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*background:rgb(1, 2, 44);*/
+#btnJanitor{
+font: 75 26pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(1, 2, 44);
+border:2px solid rgb(1,2,44);
+border-radius:10px;
+}
+#btnJanitor:hover{
+background:rgb(1,2,44);
+border:0px;
+color:#fff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Janitor</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
